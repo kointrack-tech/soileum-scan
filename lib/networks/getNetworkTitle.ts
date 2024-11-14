@@ -4,7 +4,7 @@ import config from 'configs/app';
 export default function getNetworkTitle() {
   return (
     config.chain.name +
-    (config.chain.shortName ? ` (${config.chain.shortName})` : '') +
+    (config.chain.shortName ? ` (${ config.chain.shortName })` : '') +
     ' Scan'
   );
 }
