@@ -75,7 +75,7 @@ const Footer = () => {
       url: "https://discord.gg/vJZ4q65Q9e",
     },
     {
-      icon: "brands/medium_filled" as const,
+      icon: "social/medium_filled" as const,
       iconSize: "18px",
       text: "Medium",
       url: "https://blog.soileum.com",
