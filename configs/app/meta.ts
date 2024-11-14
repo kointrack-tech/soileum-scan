@@ -1,7 +1,7 @@
 import app from "./app";
 import { getEnvValue, getExternalAssetFilePath } from "./utils";
 
-const defaultImageUrl = "/static/og_placeholder.jpg";
+const defaultImageUrl = "/static/og_placeholder.png";
 
 const meta = Object.freeze({
   promoteBlockscoutInTitle:
