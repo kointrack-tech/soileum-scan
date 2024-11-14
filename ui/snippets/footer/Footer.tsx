@@ -152,28 +152,6 @@ const Footer = () => {
     (gridArea?: GridProps["gridArea"]) => {
       return (
         <Box gridArea={gridArea}>
-          <Flex
-            columnGap={2}
-            fontSize="xs"
-            lineHeight={5}
-            alignItems="center"
-            color="text"
-          >
-            <span>Made with</span>
-            <Link
-              href="https://soileum.com"
-              isExternal
-              display="inline-flex"
-              color={logoColor}
-              _hover={{ color: logoColor }}
-            >
-              <IconSvg
-                name="networks/logo-placeholder"
-                width="80px"
-                height={4}
-              />
-            </Link>
-          </Flex>
           <Text mt={3} fontSize="xs">
             Soileum Scan is a tool for inspecting and analyzing Soileum Network.
             Blockchain explorer for Soileum Network.

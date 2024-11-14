@@ -9,7 +9,7 @@ import UserProfileDesktop from "ui/snippets/user/profile/UserProfileDesktop";
 import UserWalletDesktop from "ui/snippets/user/wallet/UserWalletDesktop";
 
 const BACKGROUND_DEFAULT =
-  "radial-gradient(103.03% 103.03% at 0% 0%, rgba(183, 148, 244, 0.8) 0%, rgba(0, 163, 196, 0.8) 100%), var(--chakra-colors-blue-400)";
+  "radial-gradient(103.03% 103.03% at 0% 0%, rgb(183 148 244 / 42%) 0%, rgb(0 24 180 / 80%) 100%), #e142d7";
 const TEXT_COLOR_DEFAULT = "white";
 const BORDER_DEFAULT = "none";
 
